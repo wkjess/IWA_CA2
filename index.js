@@ -7,6 +7,7 @@ var http = require('http'),
 var app = express();
 var server = http.createServer(app);
 
+app.use(express.static(path.resolve(_dirname, 'views')));
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 app.use(morgan('tiny'));
