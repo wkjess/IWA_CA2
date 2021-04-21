@@ -1,7 +1,8 @@
 var http = require('http'),
     path = require('path'),
     express = require('express'),
-    morgan = require('morgan');
+    morgan = require('morgan'),
+    connect = require('./connection');
 
 var app = express();
 var server = http.createServer(app);
