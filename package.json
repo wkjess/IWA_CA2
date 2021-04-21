@@ -1,0 +1,25 @@
+{
+  "name": "iwa_ca2",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wkjess/IWA_CA2.git"
+  },
+  "author": "Kim Jang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wkjess/IWA_CA2/issues"
+  },
+  "homepage": "https://github.com/wkjess/IWA_CA2#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
